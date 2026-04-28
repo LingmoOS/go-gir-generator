@@ -1,3 +1,9 @@
+go-gir-generator (3.0.7) unstable; urgency=medium
+
+  * new release for Lingmo OS.
+
+ -- Lingmo OS Team <team@lingmo.org>  Wed, 29 Apr 2026 00:43:00 +0800
+
 go-gir-generator (3.0.6) unstable; urgency=medium
 
   * Release 3.0.6

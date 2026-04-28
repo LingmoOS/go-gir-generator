@@ -1,7 +1,7 @@
 Source: go-gir-generator
 Section: devel
 Priority: optional
-Maintainer: Deepin Packages Builder <packages@deepin.com>
+Maintainer: Lingmo OS Team <team@lingmo.org>
 Build-Depends: debhelper (>= 9),
                dh-golang,
                golang-go,
@@ -11,7 +11,7 @@ Build-Depends: debhelper (>= 9),
                golang-check.v1-dev,
                golang-gopkg-check.v1-dev,
 Standards-Version: 3.9.8
-Homepage: http://www.deepin.org
+Homepage: http://www.lingmo.org
 
 Package: golang-gir-gobject-2.0-dev
 Architecture: any
