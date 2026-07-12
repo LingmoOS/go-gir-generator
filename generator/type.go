@@ -12,7 +12,7 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/linuxdeepin/go-gir/generator/gi"
+	"github.com/LingmoOS/go-gir-generator/generator/gi"
 )
 
 func force_pointer(x string) string {

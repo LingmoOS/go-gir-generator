@@ -1,4 +1,4 @@
-module github.com/linuxdeepin/go-gir
+module github.com/LingmoOS/go-gir-generator
 
 go 1.20
 

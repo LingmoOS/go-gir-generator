@@ -12,7 +12,7 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/linuxdeepin/go-gir/gobject-2.0"
+	"github.com/LingmoOS/go-gir-generator/gobject-2.0"
 )
 
 type GdkAppLaunchContext struct {

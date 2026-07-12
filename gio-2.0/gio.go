@@ -21,8 +21,8 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/linuxdeepin/go-gir/glib-2.0"
-	"github.com/linuxdeepin/go-gir/gobject-2.0"
+	"github.com/LingmoOS/go-gir-generator/glib-2.0"
+	"github.com/LingmoOS/go-gir-generator/gobject-2.0"
 )
 
 const alot = 999999

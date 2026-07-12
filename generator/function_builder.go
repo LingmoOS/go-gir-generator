@@ -5,7 +5,7 @@
 package main
 
 import (
-	"github.com/linuxdeepin/go-gir/generator/gi"
+	"github.com/LingmoOS/go-gir-generator/generator/gi"
 )
 
 type function_builder struct {
