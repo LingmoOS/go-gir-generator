@@ -1,6 +1,6 @@
 PREFIX = /usr
 GOPATH_DIR = gopath
-GOPKG_PREFIX = github.com/linuxdeepin/go-gir
+GOPKG_PREFIX = github.com/LingmoOS/go-gir-generator
 export GO111MODULE=off
 
 # FIXME: not working! export GOPATH= $(shell go env GOPATH)
@@ -21,8 +21,8 @@ test: clean prepare
 		env GOPATH="${CURDIR}/${GOPATH_DIR}:${GOPATH}" go test ./... -coverpkg=${GOPATH_DIR}
 
 install: clean
-		@mkdir -p ${DESTDIR}${PREFIX}/share/gocode/src/github.com/linuxdeepin/go-gir/;
-		`ls -1 | grep -v 'debian' | grep -v 'archlinux' | grep -v 'rpm' | xargs -I {} cp -r {} ${DESTDIR}${PREFIX}/share/gocode/src/github.com/linuxdeepin/go-gir/`
+		@mkdir -p ${DESTDIR}${PREFIX}/share/gocode/src/github.com/LingmoOS/go-gir-generator/;
+		`ls -1 | grep -v 'debian' | grep -v 'archlinux' | grep -v 'rpm' | xargs -I {} cp -r {} ${DESTDIR}${PREFIX}/share/gocode/src/github.com/LingmoOS/go-gir-generator/`
 
 clean:
 		rm -rf ${GOPATH_DIR}
